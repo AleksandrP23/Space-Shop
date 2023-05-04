@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Space-Shop</title>
+  <link rel="preload" href="fonts/SegoeUIRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/SegoeUIBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container flex">
+    <a class="logo">
+      <img src="./img/logo.svg" alt="Логотип Space-shop">
+    </a>
+    <a href="#" class="btn header__btn">Личный кабинет</a>
+  </div>
+</header>
+
+    <main class="main">
+      <h1 class="visually-hidden">Товары</h1>
+      <section class="new">
+  <div class="container">
+    <h2 class="new__title">Наши новинки:</h2>
+    <ul class="list-reset new__list">
+      <li class="new__item card">
+        <picture>
+          <source srcset="./img/card/card-1.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-1.png" class="image card__image" width="200" height="150"
+            alt="«Чегантина» – парадный боевой крейсер">
+        </picture>
+        <div class="card__wrap">
+          <h3 class="card__title">«Чегантина» — парадный боевой крейсер</h3>
+          <div class="card__descr">
+            <span class="card__price">$1 299</span>
+            <span class="card__sale">$999</span>
+          </div>
+          <a href="#" class="btn card__btn">Заказать</a>
+        </div>
+      </li>
+      <li class="new__item card">
+        <picture>
+          <source srcset="./img/card/card-2.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-2.png" class="image card__image" width="200" height="150"
+            alt="Космический корабль синего цвета">
+        </picture>
+        <div class="card__wrap">
+          <h3 class="card__title">Космический корабль синего цвета
+            (c локаторами)</h3>
+          <div class="card__descr">
+            <span class="card__price">$1 899</span>
+            <span class="card__sale">$1 299</span>
+          </div>
+          <a href="#" class="btn card__btn">Заказать</a>
+        </div>
+      </li>
+      <li class="new__item card">
+        <picture>
+          <source srcset="./img/card/card-3.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-3.png" class="image card__image" width="200" height="150"
+            alt="«Ночной ястреб» – Надежный корабль-перехватчик">
+        </picture>
+        <div class="card__wrap">
+          <h3 class="card__title">«Ночной ястреб» — Надежный корабль-перехватчик</h3>
+          <div class="card__descr">
+            <span class="card__sale">$799</span>
+          </div>
+          <a href="#" class="btn card__btn">Заказать</a>
+        </div>
+      </li>
+      <li class="new__item card">
+        <picture>
+          <source srcset="./img/card/card-4.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-4.png" class="image card__image" width="305" height="180"
+            alt="«Карающий луч» –
+            Полнофункциональный боевой корабль низкой ценовой категории">
+        </picture>
+        <div class="card__wrap">
+          <h3 class="card__title">«Карающий луч» —
+            Полнофункциональный боевой корабль низкой ценовой категории</h3>
+          <div class="card__descr">
+            <span class="card__sale">$479</span>
+          </div>
+          <a href="#" class="btn card__btn">Заказать</a>
+        </div>
+      </li>
+      <li class="new__item card">
+        <picture>
+          <source srcset="./img/card/card-5.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-5.png" class="image card__image" width="305" height="108"
+            alt="«Антидоминатор» –
+            Дорогое и эффективное оружие против доминаторов.">
+        </picture>
+        <div class="card__wrap">
+          <h3 class="card__title">«Антидоминатор» —
+            Дорогое и эффективное оружие против доминаторов.</h3>
+          <div class="card__descr">
+            <span class="card__sale">$1 779</span>
+          </div>
+          <a href="#" class="btn card__btn">Заказать</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="best">
+  <div class="container">
+    <h2 class="best__title">Корабль дня:</h2>
+    <div class="best__card">
+      <div class="best__card-wrap">
+        <picture>
+          <source srcset="./img/card/card-6.webp" type="image/webp">
+          <img loading="lazy" src="./img/card/card-6.png" class="image best__image" width="305" height="305" alt="«Цербер»">
+        </picture>
+        <div class="best__card-descr">
+          <div class="best__card-rating">
+            <span class="best__card-star active"></span>
+            <span class="best__card-star active"></span>
+            <span class="best__card-star active"></span>
+            <span class="best__card-star active"></span>
+            <span class="best__card-star"></span>
+          </div>
+          <h3 class="best__card-title">«Цербер»</h3>
+          <p class="best__card-subtitle">Маневренное патрульное судно, предназначенное для охраны систем.</p>
+          <div class="best__card-cost">
+            <span class="best__card-price">$1 600</span>
+            <span class="best__card-price">$1 400</span>
+            <span class="best__card-sale">$800</span>
+            <span class="best__card-discount">-50%</span>
+          </div>
+          <p class="best__card-text">Скидка SPACESHOP
+            <span class="best__card-subtext">$200</span>
+          </p>
+          <p class="best__card-text">Промокод «КОРАБЛЬДНЯ3»
+            <span class="best__card-subtext">$600</span>
+          </p>
+          <p class="best__card-text">Вы эĸономите
+            <span class="best__card-subtext best__card-subtext--big">$800</span>
+          </p>
+        </div>
+      </div>
+      <form action="#" class="card-form">
+        <input type="text" name="Промокод" class="input-reset card-form__input" placeholder="Промокод">
+        <button class="btn-reset btn card-form__btn">Заказать</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <section class="social">
+  <div class="container">
+    <h2 class="social__titile">
+      Присоединяйтесь к нам в соц. сетях!
+    </h2>
+    <ul class="list-reset social__list">
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link" aria-label="YouTube">
+          <img src="./img/yt.png" alt="Иконка YouTube">
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link" aria-label="Fb">
+          <img src="./img/fb.png" alt="Иконка Facebook">
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link" aria-label="instagram">
+          <img src="./img/inst.png" alt="Иконка Instagram">
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container flex">
+    <div class="contact">
+      <h2 class="contact__title">Контакты:</h2>
+      <a href="tel:+01233456789" class="contact__tel">0 (123) 345-67-89</a>
+      <a href="mailto:contact@spaceshop.sp" class="contact__mail">contact@spaceshop.sp</a>
+    </div>
+    <a class="logo">
+      <img src="./img/logo.svg" alt="Логотип Space-shop">
+    </a>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
